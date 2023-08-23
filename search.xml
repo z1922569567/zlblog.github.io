@@ -31,6 +31,31 @@
     
     
     <entry>
+      <title>wallpaper 提取/导出原壁纸</title>
+      <link href="/2023/08/23/wallpaper%E6%8F%90%E5%8F%96-%E5%AF%BC%E5%87%BA%E5%8E%9F%E5%A3%81%E7%BA%B8/"/>
+      <url>/2023/08/23/wallpaper%E6%8F%90%E5%8F%96-%E5%AF%BC%E5%87%BA%E5%8E%9F%E5%A3%81%E7%BA%B8/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本教程基于大佬制作的pkg解压项目，为小白提供的简单教程，项目源地址 <a href="https://github.com/notscuffed/repkg">https://github.com/notscuffed/repkg</a></p><hr><h1 id="一、壁纸选取"><a href="#一、壁纸选取" class="headerlink" title="一、壁纸选取"></a>一、壁纸选取</h1><p>打开 Wallpaper Engine，选择想要提取的壁纸，右键选择在资源管理器中打开<br><img src="https://cdn.staticaly.com/gh/z1922569567/Markdown_pic@main/img/54f2a7ec51f049669fb410ecba678d16.png" alt=""><br>将<code>scene.pkg</code>文件复制出来<br><img src="https://cdn.staticaly.com/gh/z1922569567/Markdown_pic@main/img/4e0d1f686a274fc0a460380c94dcac90.png" alt=""></p><h1 id="二、提取壁纸"><a href="#二、提取壁纸" class="headerlink" title="二、提取壁纸"></a>二、提取壁纸</h1><p>选择最新版本的release下载 <a href="https://github.com/notscuffed/repkg/releases">https://github.com/notscuffed/repkg/releases</a><br><img src="https://cdn.staticaly.com/gh/z1922569567/Markdown_pic@main/img/903af6a7aca04ecd878d2a3754cdca66.png" alt=""><br>下载后解压可以看到一个 <code>.exe</code> 可执行程序<br><img src="https://cdn.staticaly.com/gh/z1922569567/Markdown_pic@main/img/6da36848a5e54fab829ac14baa41522c.png" alt=""><br>将这个程序和之前复制出来的 <code>.pkg</code> 文件放在同一文件夹下<br><img src="https://cdn.staticaly.com/gh/z1922569567/Markdown_pic@main/img/46aa4047e9e242febd91d92beb270da6.png" alt=""><br>在文件路径栏输入 <code>cmd</code> 回车，让命令提示符处于该文件目录下了，在命令行中输入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RePKG.exe extract scene.pkg</span><br></pre></td></tr></table></figure><p>运行即可提取出 <code>pkg</code> 中的资源并输出到该文件夹下的<code>/output</code>目录下，在输出的资源中就可以找到相应壁纸的高清原图</p><hr><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>以上就是今天要讲的内容，本文仅仅简单介绍了 Wallpaper Engine 中的原壁纸的简单提取，更多技术细节请关注原项目 <a href="https://github.com/notscuffed/repkg">https://github.com/notscuffed/repkg</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wallpaper提取 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2023/08/05/2023-8-4-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/08/05/2023-8-4-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -47,55 +72,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="2-友链"><a href="#2-友链" class="headerlink" title="2.友链"></a>2.友链</h2><p>海内存知己，天涯若比邻</p><div class="post-body">   <div id="links">      <style>         .links-content{         margin-top:1rem;         }         .link-navigation::after {         content: " ";         display: block;         clear: both;         }         .card {         width: 45%;         font-size: 1rem;         padding: 10px 20px;         border-radius: 4px;         transition-duration: 0.15s;         margin-bottom: 1rem;         display:flex;         }         .card:nth-child(odd) {         float: left;         }         .card:nth-child(even) {         float: right;         }         .card:hover {         transform: scale(1.1);         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);         }         .card a {         border:none;         }         .card .ava {         width: 3rem!important;         height: 3rem!important;         margin:0!important;         margin-right: 1em!important;         border-radius:4px;         }         .card .card-header {         font-style: italic;         overflow: hidden;         width: 100%;         }         .card .card-header a {         font-style: normal;         color: #2bbc8a;         font-weight: bold;         text-decoration: none;         }         .card .card-header a:hover {         color: #d480aa;         text-decoration: none;         }         .card .card-header .info {         font-style:normal;         color:#a3a3a3;         font-size:14px;         min-width: 0;         overflow: hidden;         white-space: nowrap;         }      </style>      <div class="links-content">         <div class="link-navigation">            <div class="card">               <img class="ava" src="https://blog-1306153177.cos.ap-beijing.myqcloud.com/202308151203522.png" />               <div class="card-header">                  <div>                     <a href="https://wmhwiki.cn/"> wmh’s wiki</a>                  </div>                  <div class="info">鸟要高飞先振翅，人求上进先读书。</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://pic.imgdb.cn/item/64e380ee661c6c8e54180325.jpg" />               <div class="card-header">                  <div>                     <a href="https://www.wzlblog.asia/">wzl's Blog</a>                  </div>                  <div class="info">我就是我颜色不一样的烟火</div>               </div>            </div>         </div>      </div>   </div></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* 一级菜单居中 */#nav .menus_items {    position: absolute !important;    width: fit-content !important;    left: 50% !important;    transform: translateX(-50%) !important;  }  /* 子菜单横向展示 */  #nav .menus_items .menus_item:hover .menus_item_child {    display: flex !important;  }  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */  .menus_items .menus_item:nth-child(5) .menus_item_child {    left: -38px;  }  /* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {  animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {  animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {  animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {  animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {  0% {    text-shadow: #5636ed 0 0 15px;  }  12.5% {    text-shadow: #11ee5e 0 0 15px;  }  25% {    text-shadow: #f14747 0 0 15px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 15px;  }  50% {    text-shadow: #b347f1 0 0 15px;  }  62.5% {    text-shadow: #002afa 0 0 15px;  }  75% {    text-shadow: #ed709b 0 0 15px;  }  87.5% {    text-shadow: #39c5bb 0 0 15px;  }  100% {    text-shadow: #5636ed 0 0 15px;  }}@keyframes light_10px {  0% {    text-shadow: #5636ed 0 0 10px;  }  12.5% {    text-shadow: #11ee5e 0 0 10px;  }  25% {    text-shadow: #f14747 0 0 10px;  }  37.5% {    text-shadow: #f1a247 0 0 10px;  }  50% {    text-shadow: #f1ee47 0 0 10px;  }  50% {    text-shadow: #b347f1 0 0 10px;  }  62.5% {    text-shadow: #002afa 0 0 10px;  }  75% {    text-shadow: #ed709b 0 0 10px;  }  87.5% {    text-shadow: #39c5bb 0 0 10px;  }  100% {    text-shadow: #5636ed 0 0 10px;  }}@keyframes light_5px {  0% {    text-shadow: #5636ed 0 0 5px;  }  12.5% {    text-shadow: #11ee5e 0 0 5px;  }  25% {    text-shadow: #f14747 0 0 5px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 5px;  }  50% {    text-shadow: #b347f1 0 0 5px;  }  62.5% {    text-shadow: #002afa 0 0 5px;  }  75% {    text-shadow: #ed709b 0 0 5px;  }  87.5% {    text-shadow: #39c5bb 0 0 5px;  }  100% {    text-shadow: #5636ed 0 0 5px;  }}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {    background: linear-gradient(      -45deg,      #e8d8b9,      #eccec5,      #a3e9eb,      #bdbdf0,      #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;  }  @-webkit-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @-moz-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }    /* 黑夜模式适配 */  [data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;  }    /* 个人信息Follow me按钮 */  #aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
-      
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -114,10 +95,54 @@
     
     <entry>
       <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* 一级菜单居中 */#nav .menus_items {    position: absolute !important;    width: fit-content !important;    left: 50% !important;    transform: translateX(-50%) !important;  }  /* 子菜单横向展示 */  #nav .menus_items .menus_item:hover .menus_item_child {    display: flex !important;  }  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */  .menus_items .menus_item:nth-child(5) .menus_item_child {    left: -38px;  }  /* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {  animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {  animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {  animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {  animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {  0% {    text-shadow: #5636ed 0 0 15px;  }  12.5% {    text-shadow: #11ee5e 0 0 15px;  }  25% {    text-shadow: #f14747 0 0 15px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 15px;  }  50% {    text-shadow: #b347f1 0 0 15px;  }  62.5% {    text-shadow: #002afa 0 0 15px;  }  75% {    text-shadow: #ed709b 0 0 15px;  }  87.5% {    text-shadow: #39c5bb 0 0 15px;  }  100% {    text-shadow: #5636ed 0 0 15px;  }}@keyframes light_10px {  0% {    text-shadow: #5636ed 0 0 10px;  }  12.5% {    text-shadow: #11ee5e 0 0 10px;  }  25% {    text-shadow: #f14747 0 0 10px;  }  37.5% {    text-shadow: #f1a247 0 0 10px;  }  50% {    text-shadow: #f1ee47 0 0 10px;  }  50% {    text-shadow: #b347f1 0 0 10px;  }  62.5% {    text-shadow: #002afa 0 0 10px;  }  75% {    text-shadow: #ed709b 0 0 10px;  }  87.5% {    text-shadow: #39c5bb 0 0 10px;  }  100% {    text-shadow: #5636ed 0 0 10px;  }}@keyframes light_5px {  0% {    text-shadow: #5636ed 0 0 5px;  }  12.5% {    text-shadow: #11ee5e 0 0 5px;  }  25% {    text-shadow: #f14747 0 0 5px;  }  37.5% {    text-shadow: #f1a247 0 0 15px;  }  50% {    text-shadow: #f1ee47 0 0 5px;  }  50% {    text-shadow: #b347f1 0 0 5px;  }  62.5% {    text-shadow: #002afa 0 0 5px;  }  75% {    text-shadow: #ed709b 0 0 5px;  }  87.5% {    text-shadow: #39c5bb 0 0 5px;  }  100% {    text-shadow: #5636ed 0 0 5px;  }}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {    background: linear-gradient(      -45deg,      #e8d8b9,      #eccec5,      #a3e9eb,      #bdbdf0,      #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;  }  @-webkit-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @-moz-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }    /* 黑夜模式适配 */  [data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;  }    /* 个人信息Follow me按钮 */  #aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="2-友链"><a href="#2-友链" class="headerlink" title="2.友链"></a>2.友链</h2><p>海内存知己，天涯若比邻<br><div class="site-card-group"><a class="site-card" href="https://wmhwiki.cn/"><div class="img"><img src="https://blog-1306153177.cos.ap-beijing.myqcloud.com/202308151204118.png"/></div><div class="info"><img src="https://blog-1306153177.cos.ap-beijing.myqcloud.com/202308151203522.png"/><span class="title">wmh’s wiki</span><span class="desc">鸟要高飞先振翅，人求上进先读书。</span></div></a></div></p><!-- <div class="post-body">   <div id="links">      <style>         .links-content{         margin-top:1rem;         }         .link-navigation::after {         content: " ";         display: block;         clear: both;         }         .card {         width: 45%;         font-size: 1rem;         padding: 10px 20px;         border-radius: 4px;         transition-duration: 0.15s;         margin-bottom: 1rem;         display:flex;         }         .card:nth-child(odd) {         float: left;         }         .card:nth-child(even) {         float: right;         }         .card:hover {         transform: scale(1.1);         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);         }         .card a {         border:none;         }         .card .ava {         width: 3rem!important;         height: 3rem!important;         margin:0!important;         margin-right: 1em!important;         border-radius:4px;         }         .card .card-header {         font-style: italic;         overflow: hidden;         width: 100%;         }         .card .card-header a {         font-style: normal;         color: #2bbc8a;         font-weight: bold;         text-decoration: none;         }         .card .card-header a:hover {         color: #d480aa;         text-decoration: none;         }         .card .card-header .info {         font-style:normal;         color:#a3a3a3;         font-size:14px;         min-width: 0;         overflow: hidden;         white-space: nowrap;         }      </style>      <div class="links-content">         <div class="link-navigation">            <div class="card">               <img class="ava" src="https://blog-1306153177.cos.ap-beijing.myqcloud.com/202308151203522.png" />               <div class="card-header">                  <div>                     <a href="https://wmhwiki.cn/"> wmh’s wiki</a>                  </div>                  <div class="info">鸟要高飞先振翅，人求上进先读书。</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://pic.imgdb.cn/item/64e380ee661c6c8e54180325.jpg" />               <div class="card-header">                  <div>                     <a href="https://www.wzlblog.asia/">wzl's Blog</a>                  </div>                  <div class="info">我就是我颜色不一样的烟火</div>               </div>            </div>         </div>      </div>   </div></div> -->]]></content>
       
     </entry>
     
@@ -150,7 +175,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="音乐总能治愈内心深处"><a href="#音乐总能治愈内心深处" class="headerlink" title="音乐总能治愈内心深处"></a><font color=LightSkyBlue><center>音乐总能治愈内心深处</font></h1><hr>    <div id="aplayer-qwGYGtMV" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8998491914" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="音乐总能治愈内心深处"><a href="#音乐总能治愈内心深处" class="headerlink" title="音乐总能治愈内心深处"></a><font color=LightSkyBlue><center>音乐总能治愈内心深处</font></h1><hr>    <div id="aplayer-uUfjVNUN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8998491914" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
